@@ -1,0 +1,20 @@
+
+Instruction for run nodes.
+
+
+1.Open Terminal and run ros
+	$ roscore
+
+
+2.Open Terminal in new tab 
+	$ cd Directory of cloning file 
+		For example : cd Desktop/ros_publisher_subscriber
+	$ catkin_make
+	$ source ./devel/setup.bash
+
+3.rosrun my_publisher1 my_publisher1
+
+4.Open Terminal in new tab 
+
+5.rosrun my_publisher1 my_subscriber1
+

@@ -1,0 +1,23 @@
+
+Instruction for run simulation.
+
+
+1.Open Terminal and run ros
+	$ roscore
+
+2.Open Terminal in new tab (Ctrl+Shift+T)
+	$ cd Directory of V-REP
+	$ ./vrep.sh
+
+3.Open Terminal in new tab 
+	$ cd Directory of cloning file 
+		For example : cd Desktop/2wheels_tutorials
+	$ cd projects/2wheels/catkin_ws
+	$ catkin_make
+	$ source ./devel/setup.bash
+
+4.Open V-REP 
+
+5.Open scene 2wheels.ttt
+
+6.Click play simulation
