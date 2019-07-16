@@ -66,9 +66,9 @@ void infraCallback(const std_msgs::Float32MultiArray::ConstPtr& array)
 
 
 //***************************************
-//*										*
-//*				main program			*
-//*										*
+//*					*
+//*	     main program		*
+//*					*
 //***************************************
 
 struct timeval tv;
@@ -111,7 +111,7 @@ int main(int argc, char *argv[]){
 		sensor_right = sensor[1];
 		sensor_left = sensor[2];
 
-		// Hard code 
+		// Example code 
 		if(sensor_right == 1 && sensor_left == 0){
 			motorSig[1] = 5;
 			motorSig[2] = -5;
