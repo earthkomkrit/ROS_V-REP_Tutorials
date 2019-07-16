@@ -115,4 +115,5 @@ end
 function sysCall_cleanup() 
     simROS.shutdownSubscriber(OutputdriveSub)
     simROS.shutdownSubscriber(PlotSignalSub)
+    simROS.shutdownPublisher(infraR_Pub)
 end 
